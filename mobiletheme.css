@@ -18,7 +18,8 @@ body  {
 
     --core-header-toolbar-background :  #0277bd;
     /* Fundo da página */ 
-    --background-color :  rgb(39, 39, 39) ; 
+    --background-color :  rgb(39, 39, 39) ;
+    --background: rgb(39, 39, 39) ;
     --ion-background-color-rgb :  rgb(39, 39, 39) ;
 
     /* Cor do texto principal */ 
