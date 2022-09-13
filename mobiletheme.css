@@ -1,14 +1,16 @@
 body  {
-    --ion-color-primary :  #006600 ; 
+
+    --core-header-toolbar-background :  #0277bd;
+    --ion-color-primary :  #0277bd ; 
 
     /* Lista RGB da cor */ 
     --ion-color-primary-rgb :  #0277bd ; 
 
     /* Preto ou branco, dependendo de qual cor dá mais contraste */ 
-    --ion-color-primary-contrast :  #ffffff ; 
+    --ion-color-primary-contrast :  #0277bd ; 
 
     /* Versão RGB da cor de contraste */ 
-    --ion-color-primary-contrast-rgb :  255 , 255 , 255 ; 
+    --ion-color-primary-contrast-rgb :  #0277bd; 
 
     /* Cor ligeiramente mais escura. (misture 12% de preto) */ 
     --ion-color-primary-shade :  #0277bd;
@@ -16,11 +18,11 @@ body  {
     /* Cor ligeiramente mais clara. (misture 10% de branco) */ 
     --ion-color-primary-tint :  #0277bd ; 
 
-    --core-header-toolbar-background :  #0277bd;
+
     /* Fundo da página */ 
-    --background-color :  rgb(39, 39, 39) ;
+    --background-color :  rgb(255, 255, 255) ;
     --background: rgb(39, 39, 39) ;
-    --ion-background-color-rgb :  rgb(39, 39, 39) ;
+    --ion-background-color-rgb :  rgb(255, 255, 255) ;
 
     /* Cor do texto principal */ 
     --text-color :  rgb(255, 255, 255) ; 
@@ -30,5 +32,10 @@ body  {
     --subdued-text-color :  rgb(236, 236, 236) ;
 
     /* Texto dos links */ 
-    --core-link-color :  rgb(119, 7, 110) ; 
+    --core-link-color :  rgb(119, 7, 110) ;
+     
+}
+/* Background */
+ion-header ion-toolbar {
+    --core-header-toolbar-background: #0277bd;
 }
