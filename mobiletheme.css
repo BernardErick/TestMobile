@@ -1,4 +1,16 @@
 body  { 
-    --core-header-toolbar-background :  rgb(154, 199, 241) ;
-    --brand-color: rgb(7, 111, 209);
+    --core-header-toolbar-background :  #0277bd;
+    /* Fundo da página */ 
+    --background-color :  rgb(39, 39, 39) ; 
+    --ion-background-color-rgb :  255 ,  255 ,  255 ;
+
+    /* Cor do texto principal */ 
+    --text-color :  rgb(255, 255, 255) ; 
+    --ion-text-color-rgb :  0 ,  0 ,  0 ;
+
+    /* Texto usado em categorias e conteúdo secundário */ 
+    --subdued-text-color :  rgb(236, 236, 236) ;
+
+    /* Texto dos links */ 
+    --core-link-color :  rgb(119, 7, 110) ; 
 }
