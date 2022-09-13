@@ -34,7 +34,3 @@ body  {
     --core-link-color :  rgb(119, 7, 110) ;
      
 }
-/* Background */
-ion-header ion-toolbar {
-    --core-header-toolbar-background: #0277bd;
-}
