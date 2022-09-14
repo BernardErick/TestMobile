@@ -2,4 +2,10 @@ body  {
     --core-header-toolbar-background :  #0277bd;
     --core-header-toolbar-height: 60px;
     --core-header-toolbar-color: rgb(255, 255, 255);
+
+    
+}
+.core-loading {
+    background-color: #0277bd;
+    color: transparent;
 }
